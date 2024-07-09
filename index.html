@@ -1,1 +1,102 @@
-<h1>Test!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="dist/styles.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <title>An Educational Quantum Circuit Builder and Simulator</title>
+</head>
+<body class="items-center justify-center font-rubik bg-slate-50 dark:bg-slate-800">
+
+    <!-- wrapper x pad screen dependent -->
+    <div class="px-4 pb-8 lg:px-12 xl:px-48">
+
+      <!-- title -->
+      <div class="text-center text-4xl font-semibold pt-8 text-slate-800 dark:text-slate-50">
+        An Educational Quantum Circuit Builder and Simulator
+      </div>
+
+      <!-- author + supervisor -->
+      <div class="flex flex-col justify-center items-center pt-4">
+        <div class="text-blue-500 text-xl font-medium hover:underline">
+          <a href="https://github.com/zorbzers">Lea Button</a>
+        </div>
+
+        <div class="text-slate-500 dark:text-slate-300 text-lg">
+          <a class="italic">Supervised by: </a>
+          <a>Phil McMinn</a>
+        </div>
+
+        <div class="text-slate-500 dark:text-slate-300 text-lg">The University of Sheffield</div>
+        <div class="text-slate-500 dark:text-slate-300 text-lg">2024</div>
+      </div>
+
+      <!-- icon links to the paper, the github code, and website -->
+      <div class="flex flex-wrap justify-center items-center pt-4 space-x-2 text-slate-50 dark:text-slate-800">
+        <!-- paper -->
+        <div class="bg-slate-800 dark:bg-slate-100 hover:bg-slate-700 dark:hover:bg-slate-300 py-2 px-4 mb-2 space-x-1 rounded-3xl flex flex-row">
+          <svg class="w-6 h-6 text-slate-50 dark:text-slate-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 3v4a1 1 0 0 1-1 1H5m4 8h6m-6-4h6m4-8v16a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7.914a1 1 0 0 1 .293-.707l3.914-3.914A1 1 0 0 1 9.914 3H18a1 1 0 0 1 1 1Z"/>
+          </svg>          
+          <a class="hover:underline" href="/an-educational-quantum-circuit-builder-and-simulator.pdf">
+            Report
+          </a>
+        </div>
+
+        <!-- code -->
+        <div class="bg-slate-800 dark:bg-slate-100 hover:bg-slate-700 dark:hover:bg-slate-300 py-2 px-4 mb-2 space-x-1 rounded-3xl flex flex-row">
+          <svg class="w-6 h-6 text-slate-50 dark:text-slate-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" d="M12.006 2a9.847 9.847 0 0 0-6.484 2.44 10.32 10.32 0 0 0-3.393 6.17 10.48 10.48 0 0 0 1.317 6.955 10.045 10.045 0 0 0 5.4 4.418c.504.095.683-.223.683-.494 0-.245-.01-1.052-.014-1.908-2.78.62-3.366-1.21-3.366-1.21a2.711 2.711 0 0 0-1.11-1.5c-.907-.637.07-.621.07-.621.317.044.62.163.885.346.266.183.487.426.647.71.135.253.318.476.538.655a2.079 2.079 0 0 0 2.37.196c.045-.52.27-1.006.635-1.37-2.219-.259-4.554-1.138-4.554-5.07a4.022 4.022 0 0 1 1.031-2.75 3.77 3.77 0 0 1 .096-2.713s.839-.275 2.749 1.05a9.26 9.26 0 0 1 5.004 0c1.906-1.325 2.74-1.05 2.74-1.05.37.858.406 1.828.101 2.713a4.017 4.017 0 0 1 1.029 2.75c0 3.939-2.339 4.805-4.564 5.058a2.471 2.471 0 0 1 .679 1.897c0 1.372-.012 2.477-.012 2.814 0 .272.18.592.687.492a10.05 10.05 0 0 0 5.388-4.421 10.473 10.473 0 0 0 1.313-6.948 10.32 10.32 0 0 0-3.39-6.165A9.847 9.847 0 0 0 12.007 2Z" clip-rule="evenodd"/>
+          </svg>          
+          <a class="hover:underline" href="#">
+            Code
+          </a>
+        </div>
+
+        <!-- website -->
+        <div class="bg-slate-800 dark:bg-slate-100 hover:bg-slate-700 dark:hover:bg-slate-300 py-2 px-4 mb-2 space-x-1 rounded-3xl flex flex-row">
+          <svg class="w-6 h-6 text-slate-50 dark:text-slate-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.213 9.787a3.391 3.391 0 0 0-4.795 0l-3.425 3.426a3.39 3.39 0 0 0 4.795 4.794l.321-.304m-.321-4.49a3.39 3.39 0 0 0 4.795 0l3.424-3.426a3.39 3.39 0 0 0-4.794-4.795l-1.028.961"/>
+          </svg>
+          <a class="hover:underline" href="https://edu-quantum-simulator-02a0eea10e84.herokuapp.com/">
+            Project Site
+          </a>          
+        </div>
+      </div>
+
+      <div class="text-slate-800 dark:text-slate-50 pt-8 flex flex-col md:flex-row md:space-x-8">
+        <!-- abstract -->
+        <div class="md:w-3/5">
+          <p class="text-xl font-semibold text-center">
+            Abstract
+          </p>
+          <p class="text-justify pt-2">
+            Quantum computing is a rapidly emerging field that, due to its nature, allows computations to be completed millions of times faster than classical computers. While this statement generalises the advantage of quantum computing over classical computing, it is for this reason that quantum computing has the potential to revolutionise fields such as cryptography, optimisation, and chemistry. The caveat is that quantum systems are incredibly complex and challenging to experiment with. Therefore, the development of quantum circuit simulators has become an essential tool for researchers to study and experiment with quantum systems.
+          </p>
+          <p class="text-justify indent-6">
+            Many simulators exist; however, the learning curve can be extremely steep, particularly for those new to quantum computing concepts. The project aims to create a beginner-friendly quantum circuit simulator, utilising helpful visualisations to allow users to understand their simulations fully. This report seeks to complete a comprehensive literature survey, present a project plan, detail the design and implementation, evaluate the project, and discuss future work.
+          </p>
+        </div>
+
+        <!-- about  -->
+        <div class="md:w-2/5">
+          <p class="pt-8 md:pt-0 text-xl font-semibold text-center">
+            About The Project
+          </p>
+          <p class="text-justify pt-2">
+            This project was completed in fulfilment of the requirements for the Computer Science BSc at the University of Sheffield, and achieved a 1st class grade (distinction). The original proposal was open-ended, broadly titled 'A Quantum Circuit Simulator', which was refined into the project title 'An Educational Quantum Circuit Builder and Simulator'. The project involves both a report and an artifact, where the artifact is the online platform developed to simulate quantum circuits. 
+          </p>
+          <p class="text-justify indent-6">
+            The project is a development-based project, rather than research-based. The report focuses on the design, implementation, and evaluation of the system, although a literature review is included to provide context and background.
+          </p>
+        </div>
+      </div>
+      
+    </div>
+    
+  
+</body>
+</html>
